@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "loldanworkboarddemo": {
+      "hosting": {
+        "WorkboardProject": [
+          "loldanworkboarddemo"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "loldanworkboarddemo"
+  }
+}
