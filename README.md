@@ -11,6 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   - As of @angular/fire v7.5.0 there is a bug for non-existent environment files. Just manually create them
 - run 'firebase init' to initialize the emulators
   - project needs auth and firestore
+    - When in doubt: 'firebase login --reauth'
 
 ## Development server
 
