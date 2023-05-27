@@ -1,7 +1,7 @@
 /**
 * Generated theme by Material Theme Generator
 * https://materialtheme.arcsine.dev
-* Fork at: https://materialtheme.arcsine.dev/?c=YHBhbGV0dGU$YHByaW1hcnk$YF48IzMzNDRjYyIsIj9lcjwjYzJjN2YwIiwiO2VyPCMyMDJkYjl$LCIlPmBePCM1ZmI0YjIiLCI~ZXI8I2NmZTllOCIsIjtlcjwjNDM5Yzk5fiwid2Fybj5gXjwjZmYwMDAwIiwiP2VyPCNmZmIzYjMiLCI7ZXI8I2ZmMDAwMH4sIj9UZXh0PCMwMDAwMDAiLCI~PTwjZmFmYWZhIiwiO1RleHQ8I2ZmZmZmZiIsIjs9PCMyYzJjMmN$LCJmb250cz5bYEA8KC00fixgQDwoLTN$LGBAPCgtMn4sYEA8KC0xfixgQDxoZWFkbGluZX4sYEA8dGl0bGV$LGBAPHN1YiktMn4sYEA8c3ViKS0xfixgQDxib2R5LTJ$LGBAPGJvZHktMX4sYEA8YnV0dG9ufixgQDxjYXB0aW9ufixgQDxpbnB1dCIsInNpemU$bnVsbH1dLCJpY29uczxGaWxsZWQiLCI~bmVzcz5mYWxzZSwidmVyc2lvbj4xM30=
+* Fork at: https://materialtheme.arcsine.dev/?c=YHBhbGV0dGU$YHByaW1hcnk$YF48IzM4MzNjYyIsIj9lcjwjYzNjMmYwIiwiO2VyPCMyNDIwYjl$LCIlPmBePCMzMzk4YTAiLCI~ZXI8I2MyZTBlMyIsIjtlcjwjMjA3Yjg0fiwid2Fybj5gXjwjZmYwMDAwIiwiP2VyPCNmZmIzYjMiLCI7ZXI8I2ZmMDAwMH4sIj9UZXh0PCMwMDAwMDAiLCI~PTwjZmFmYWZhIiwiO1RleHQ8I2ZmZmZmZiIsIjs9PCMyYzJjMmN$LCJmb250cz5bYEA8KC00fixgQDwoLTN$LGBAPCgtMn4sYEA8KC0xfixgQDxoZWFkbGluZX4sYEA8dGl0bGV$LGBAPHN1YiktMn4sYEA8c3ViKS0xfixgQDxib2R5LTJ$LGBAPGJvZHktMX4sYEA8YnV0dG9ufixgQDxjYXB0aW9ufixgQDxpbnB1dCIsInNpemU$bnVsbH1dLCJpY29uczxGaWxsZWQiLCI~bmVzcz5mYWxzZSwidmVyc2lvbj4xM30=
 */
 
 @use '@angular/material' as mat;
@@ -149,18 +149,18 @@ $mat-dark-theme-background: (
 // Theme Config
 
 body {
-  --primary-color: #3344cc;
-  --primary-lighter-color: #c2c7f0;
-  --primary-darker-color: #202db9;
+  --primary-color: #3833cc;
+  --primary-lighter-color: #c3c2f0;
+  --primary-darker-color: #2420b9;
   --text-primary-color: #{$light-primary-text};
   --text-primary-lighter-color: #{$dark-primary-text};
   --text-primary-darker-color: #{$light-primary-text};
 }
 $mat-primary: (
-  main: #3344cc,
-  lighter: #c2c7f0,
-  darker: #202db9,
-  200: #3344cc, // For slide toggle,
+  main: #3833cc,
+  lighter: #c3c2f0,
+  darker: #2420b9,
+  200: #3833cc, // For slide toggle,
   contrast : (
     main: $light-primary-text,
     lighter: $dark-primary-text,
@@ -171,22 +171,22 @@ $theme-primary: mat.define-palette($mat-primary, main, lighter, darker);
 
 
 body {
-  --accent-color: #5fb4b2;
-  --accent-lighter-color: #cfe9e8;
-  --accent-darker-color: #439c99;
-  --text-accent-color: #{$dark-primary-text};
+  --accent-color: #3398a0;
+  --accent-lighter-color: #c2e0e3;
+  --accent-darker-color: #207b84;
+  --text-accent-color: #{$light-primary-text};
   --text-accent-lighter-color: #{$dark-primary-text};
-  --text-accent-darker-color: #{$dark-primary-text};
+  --text-accent-darker-color: #{$light-primary-text};
 }
 $mat-accent: (
-  main: #5fb4b2,
-  lighter: #cfe9e8,
-  darker: #439c99,
-  200: #5fb4b2, // For slide toggle,
+  main: #3398a0,
+  lighter: #c2e0e3,
+  darker: #207b84,
+  200: #3398a0, // For slide toggle,
   contrast : (
-    main: $dark-primary-text,
+    main: $light-primary-text,
     lighter: $dark-primary-text,
-    darker: $dark-primary-text,
+    darker: $light-primary-text,
   )
 );
 $theme-accent: mat.define-palette($mat-accent, main, lighter, darker);

@@ -14,6 +14,7 @@ import {
   initializeFirestore,
   connectFirestoreEmulator
 } from '@angular/fire/firestore';
+import {SharedModule} from "./shared/shared.module";
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import {
       }
 
       return firestore;
-    })
+    }),
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
